@@ -48,7 +48,7 @@ Train and test sets are concatenated (with an `is_train` flag) so that both rece
 
 The processed data is saved to `data/processed/train.csv` and `data/processed/test.csv`.
 
-### 2. `guess.ipynb` – Modeling
+### 2. `model_train.ipynb` – Modeling
 
 - **Model:** `RandomForestClassifier(random_state=1)`
 - **Tuning:** `GridSearchCV` with 5-fold CV, scored on accuracy, over:
